@@ -1,0 +1,63 @@
+@import "./macchiato.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica;
+  font-size: 16;
+  border: none;
+  margin: 2px 4px;
+}
+
+#waybar {
+  background-color: transparent;
+}
+
+#workspaces button {
+  color: @text;
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+#workspaces button.active {
+  color: @base;
+  background: @pink;
+}
+
+#clock,
+#cpu,
+#memory,
+#network,
+#wireplumber,
+#language,
+#custom-spotify {
+  background-color: transparent;
+  border-radius: 12px;
+  margin: 0px 16px;
+}
+
+#clock {
+  color: @pink;
+}
+
+#network {
+  color: @teal;
+}
+
+#memory {
+  color: @yellow;
+}
+
+#cpu {
+  color: @flamingo;
+}
+
+#language {
+  color: @blue;
+}
+
+#wireplumber {
+  color: @mauve;
+}
+
+#custom-power {
+  color: @red;
+}
